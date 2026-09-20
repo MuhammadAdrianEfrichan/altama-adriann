@@ -66,7 +66,7 @@ const Grow = () => {
                             </p>
 
                             <div className="mt-7">
-                                <Button className="w-55 h-13 rounded-[999px] text-[20px] font-bold">
+                                <Button className="h-10 w-40 rounded-[999px] text-[14px] font-bold md:h-13 md:w-55 md:text-[20px]">
                                     Apply Now
                                 </Button>
                             </div>

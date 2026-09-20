@@ -76,7 +76,7 @@ const GrowWithComp = () => {
                                 <p className="mt-2 font-inter text-sm leading-[1.35] text-grey">
                                     {job.description}
                                 </p>
-                                <Button className="mt-auto h-12 w-40 text-base font-semibold">
+                                <Button className="mt-auto h-10 w-36 text-sm font-semibold md:h-12 md:w-40 md:text-base">
                                     Apply Now
                                 </Button>
                             </article>

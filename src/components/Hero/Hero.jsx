@@ -14,7 +14,7 @@ const Hero = ()=>{
             aria-hidden="true"
         />
         <img
-            className="pointer-events-none absolute bottom-0 left-27.25"
+            className="pointer-events-none absolute bottom-0 left-27.25 hidden md:block"
             src={lineVertical}
             alt=""
             aria-hidden="true"
