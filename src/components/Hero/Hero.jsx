@@ -42,11 +42,11 @@ const Hero = ()=>{
             alt="Tekiro, Rexco, and Ryu"
         />
         <Link
-            className="fixed bottom-5 right-5 z-10 hidden focus-visible:outline-3 focus-visible:outline-white focus-visible:outline-offset-4 md:block md:right-8 lg:right-20"
+            className="alva-breathe fixed bottom-3 right-3 z-10 block focus-visible:outline-3 focus-visible:outline-white focus-visible:outline-offset-4 md:bottom-5 md:right-8 lg:right-20"
             to="/contact-us"
             aria-label="Contact Us with Alva"
         >
-            <img className="h-71.5 w-54" src={alva} alt="Alva" />
+            <img className="block h-32 w-24 object-contain md:h-71.5 md:w-54" src={alva} alt="Alva" />
         </Link>
     </section>
 }

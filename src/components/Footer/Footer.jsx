@@ -71,7 +71,7 @@ const Footer =()=>{
                 <div className="flex flex-col gap-16 lg:flex-row lg:justify-between lg:gap-24">
                     <div className="flex shrink-0 flex-col gap-20">
                         <Link to="/" aria-label="Altama Surya Anugerah home">
-                            <img src={logo} alt="Altama Surya Anugerah" />
+                            <img className="w-52 md:w-auto" src={logo} alt="Altama Surya Anugerah" />
                         </Link>
                         <div className="flex gap-2 sm:gap-3">
                             {socialLinks.map((social) => (
@@ -81,7 +81,7 @@ const Footer =()=>{
                                     aria-label={social.label}
                                     className="rounded-2xl focus-visible:outline-2 focus-visible:outline-white focus-visible:outline-offset-4"
                                 >
-                                    <img src={social.image} alt="" />
+                                    <img className="h-10 w-10 md:h-auto md:w-auto" src={social.image} alt="" />
                                 </a>
                             ))}
                         </div>
